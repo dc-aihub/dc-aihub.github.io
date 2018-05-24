@@ -1,0 +1,87 @@
+.category_img
+  {
+    height: 250px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .category_title
+  {
+      color: #fff;
+  }
+  .category_img:hover .category_title
+  {
+      color: lime;
+  }
+
+  .lesson-links
+  {
+    padding: 5px 0 0 0;
+    margin:  3px 0 3px 0;
+    font-family: Roboto, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+  }
+
+  /* Tooltip container */
+  .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px thick black; /* If you want dots under the hoverable text */
+      width: 100%;
+  }
+
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 90%;
+      height: 100%;
+      -webkit-transition: width 2s; /* Safari */
+      transition: width 2s;
+      background-color: rgba(118, 122, 118, 0.582);
+      color: #fff;
+      text-align: center;
+      border-radius: 0 0 0 0;
+      text-decoration: none;
+  
+      /* Position the tooltip text - see examples below! */
+      position: absolute;
+      z-index: 1;
+  }
+
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+      visibility: visible;
+      cursor: pointer;
+      width: 100%;
+  }
+
+  .tooltip:hover .lesson-links {
+    padding: 5px 0 0 0;
+    margin:  15px 0 3px 0;
+  }
+
+  .toc {
+    width: 100.2%;
+  }
+
+  .toc-header-row {
+    width: 100%;
+    font-size: 1.5em;
+    background-color: #009688;
+  }
+
+  .left-toc {
+      width: 90%;
+      text-align: center;
+  }
+
+  .right-toc {
+      width: 10%;
+  }
+
+  .ttl {
+      font-size: 1.3em;
+  }
